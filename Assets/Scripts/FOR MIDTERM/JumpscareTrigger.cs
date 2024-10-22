@@ -63,9 +63,7 @@ public class JumpscareTrigger : MonoBehaviour
         // Wait for the specified duration
         yield return new WaitForSeconds(jumpscareDuration);
 
-        // Restore the original position of the detector (optional)
-        // transform.position = originalPosition; // Uncomment this line if you want to restore to an original position
-        // Destroy the jumpscare instance
+    
         Destroy(jumpscareInstance);
     }
 }
